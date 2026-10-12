@@ -13,7 +13,7 @@ export const site = {
 	phoneDisplay: '(800) 555-0123',
 	phoneHref: 'tel:18005550123',
 	// TODO: placeholder hours; confirm.
-	hours: 'Mon–Fri 8am–8pm ET'
+	hours: 'Mon–Fri 6am–6pm PT'
 };
 
 export const nav = [
