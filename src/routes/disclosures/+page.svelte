@@ -3,13 +3,13 @@
 	import LegalPage from '$lib/components/site/LegalPage.svelte';
 </script>
 
-<!-- TODO: DRAFT — have compliance/counsel review before launch. Add a disclosure of any
+<!-- TODO: DRAFT. Have compliance/counsel review before launch. Add a disclosure of any
      compensation received from partner law firms, if applicable. -->
 <LegalPage title="Disclosures">
 	<p
 		class="p-4 text-sm font-medium text-amber-800 bg-amber-50 rounded-lg border border-amber-200"
 	>
-		Draft — pending compliance review.
+		Draft: pending compliance review.
 	</p>
 
 	<h2>We Are Not a Law Firm</h2>

@@ -12,7 +12,7 @@
 		},
 		{
 			title: 'We explain your options',
-			description: 'Straight answers in plain English — no jargon, no pressure.'
+			description: 'Straight answers in plain English. No jargon, no pressure.'
 		},
 		{
 			title: 'We connect you',
@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-	<title>Free Consultation — {site.name}</title>
+	<title>Free Consultation | {site.name}</title>
 	<meta
 		name="description"
 		content="Request a free, no-obligation consultation with Modern Advantage Direct. Find out your options for dealing with debt collectors."
@@ -49,7 +49,7 @@
 					<span class="text-brand-gradient">Consultation</span>
 				</h1>
 				<p class="mx-auto mt-5 max-w-xl text-lg leading-relaxed lg:mx-0 text-slate-600">
-					Fill out the form and we’ll reach out — or call us now. There’s no cost and no
+					Fill out the form and we’ll reach out, or call us now. There’s no cost and no
 					obligation.
 				</p>
 

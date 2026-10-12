@@ -14,7 +14,7 @@
 			icon: Heart,
 			title: 'On Your Side',
 			description:
-				'Dealing with collectors is stressful. We treat every person with respect — no judgment, ever.'
+				'Dealing with collectors is stressful. We treat every person with respect. No judgment, ever.'
 		},
 		{
 			icon: Eye,
@@ -32,7 +32,7 @@
 </script>
 
 <svelte:head>
-	<title>About Us — {site.name}</title>
+	<title>About Us | {site.name}</title>
 	<meta
 		name="description"
 		content="Modern Advantage Direct helps people dealing with debt collectors connect with independent consumer rights law firms."
@@ -43,7 +43,7 @@
 	eyebrow="About Us"
 	title="Helping People Push Back on"
 	highlight=" Debt Collectors."
-	description="We believe everyone deserves to understand their options — and to have experienced attorneys in their corner."
+	description="We believe everyone deserves to understand their options and to have experienced attorneys in their corner."
 />
 
 <section class="pb-16 sm:pb-20">
@@ -53,7 +53,7 @@
 			<div class="mt-4 space-y-4 text-lg leading-relaxed text-slate-600">
 				<p>
 					{site.name} helps people who are being pursued by debt collectors find out where they stand
-					— and get connected with the right legal help.
+					and get connected with the right legal help.
 				</p>
 				<p>
 					Debt collection is a legal issue, and legal issues deserve lawyers. That’s why we partner
@@ -66,7 +66,7 @@
 		<div
 			class="flex justify-center items-center rounded-2xl border-2 border-dashed aspect-[4/3] border-slate-200 bg-slate-50"
 		>
-			<p class="px-6 text-sm text-center text-slate-400">Placeholder — team or brand photo</p>
+			<p class="px-6 text-sm text-center text-slate-400">Placeholder: team or brand photo</p>
 		</div>
 	</div>
 </section>
@@ -107,7 +107,7 @@
 				<p class="mt-2 leading-relaxed text-slate-600">
 					{site.name} is not a law firm and doesn’t provide legal advice. When you’re a fit, we connect
 					you with an independent consumer rights law firm. You’ll sign an agreement directly with
-					that firm, which sets out the services it will provide and any fees — so you know exactly
+					that firm, which sets out the services it will provide and any fees, so you know exactly
 					what you’re getting before you commit.
 				</p>
 				<p class="flex gap-1.5 items-center mt-3 text-sm text-slate-500">

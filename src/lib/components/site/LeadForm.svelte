@@ -37,7 +37,7 @@
 		<div class="flex justify-center items-center mb-4 w-16 h-16 rounded-full bg-brand-gradient">
 			<CheckCircle2 class="w-8 h-8 text-white" />
 		</div>
-		<h3 class="mb-2 text-xl font-bold text-slate-900">Thanks — We Got It!</h3>
+		<h3 class="mb-2 text-xl font-bold text-slate-900">Thanks, We Got It!</h3>
 		<p class="text-sm text-slate-600">
 			A member of our team will reach out soon to set up your free consultation.
 		</p>

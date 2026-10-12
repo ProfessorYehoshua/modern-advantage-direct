@@ -9,10 +9,10 @@ export const site = {
 	// TODO: replace with the real logo files (see static/). Keep the same paths to avoid code changes.
 	logo: link('/mad-logo-placeholder.svg'),
 	icon: link('/mad-icon-placeholder.svg'),
-	// TODO: placeholder phone number — replace with the real line.
+	// TODO: placeholder phone number; replace with the real line.
 	phoneDisplay: '(800) 555-0123',
 	phoneHref: 'tel:18005550123',
-	// TODO: placeholder hours — confirm.
+	// TODO: placeholder hours; confirm.
 	hours: 'Mon–Fri 8am–8pm ET'
 };
 

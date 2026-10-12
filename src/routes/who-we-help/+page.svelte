@@ -16,7 +16,7 @@
 			icon: PhoneCall,
 			title: 'The calls won’t stop',
 			description:
-				'Collectors are calling your cell, your home, maybe several times a day — and you dread every ring.'
+				'Collectors are calling your cell, your home, maybe several times a day, and you dread every ring.'
 		},
 		{
 			icon: Eye,
@@ -40,7 +40,7 @@
 			icon: Gavel,
 			title: 'You’re being threatened with a lawsuit',
 			description:
-				'You’ve gotten letters or calls about court — or you’ve already been served. Don’t wait on this one.'
+				'You’ve gotten letters or calls about court, or you’ve already been served. Don’t wait on this one.'
 		},
 		{
 			icon: Briefcase,
@@ -61,7 +61,7 @@
 </script>
 
 <svelte:head>
-	<title>Who We Help — {site.name}</title>
+	<title>Who We Help | {site.name}</title>
 	<meta
 		name="description"
 		content="Dealing with nonstop collection calls, a debt you don’t recognize, or threats of a lawsuit? Modern Advantage Direct can connect you with consumer rights attorneys."

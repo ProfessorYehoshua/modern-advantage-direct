@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>{title} — {site.name}</title>
+	<title>{title} | {site.name}</title>
 	<meta name="robots" content="noindex" />
 </svelte:head>
 

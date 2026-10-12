@@ -9,6 +9,6 @@
 	<p
 		class="p-4 text-sm font-medium text-amber-800 bg-amber-50 rounded-lg border border-amber-200"
 	>
-		Placeholder — the final {data.title} will be provided by counsel before launch.
+		Placeholder: the final {data.title} will be provided by counsel before launch.
 	</p>
 </LegalPage>

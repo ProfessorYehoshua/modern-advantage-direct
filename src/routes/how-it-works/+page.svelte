@@ -23,14 +23,14 @@
 			icon: Handshake,
 			title: 'Get Matched With a Law Firm',
 			description:
-				'If it’s a fit, we connect you with an independent consumer rights law firm. You’ll get its agreement — including any fees — in writing to review before you sign.',
+				'If it’s a fit, we connect you with an independent consumer rights law firm. You’ll get its agreement, including any fees, in writing to review before you sign.',
 			points: ['Experienced consumer rights attorneys', 'Everything explained up front']
 		},
 		{
 			icon: Scale,
 			title: 'The Attorneys Take It From There',
 			description:
-				'Once you’re represented, the law firm steps in and works directly with the collectors on your behalf — so you’re not facing them alone.',
+				'Once you’re represented, the law firm steps in and works directly with the collectors on your behalf, so you’re not facing them alone.',
 			points: ['Attorneys handle the collectors', 'You stay in the loop']
 		}
 	];
@@ -43,7 +43,7 @@
 </script>
 
 <svelte:head>
-	<title>How It Works — {site.name}</title>
+	<title>How It Works | {site.name}</title>
 	<meta
 		name="description"
 		content="Getting help with debt collectors is simple: a free consultation, a match with an independent consumer rights law firm, and attorneys who take it from there."
@@ -97,7 +97,7 @@
 				What to Have <span class="text-brand-gradient">Handy</span>
 			</h2>
 			<p class="mt-4 text-lg text-slate-600">
-				Don’t have everything? That’s okay — call anyway and we’ll figure it out together.
+				Don’t have everything? That’s okay. Call anyway and we’ll figure it out together.
 			</p>
 		</div>
 		<div class="grid gap-4 mt-10 sm:grid-cols-3">

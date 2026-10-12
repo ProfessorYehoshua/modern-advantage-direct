@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>FAQ — {site.name}</title>
+	<title>FAQ | {site.name}</title>
 	<meta
 		name="description"
 		content="Answers to common questions about Modern Advantage Direct, our free consultation, and how we connect you with consumer rights attorneys."
@@ -29,5 +29,5 @@
 
 <CtaSection
 	title="Still Have Questions?"
-	description="We’re happy to answer them. Call us or request a free consultation — no cost and no obligation."
+	description="We’re happy to answer them. Call us or request a free consultation. There’s no cost and no obligation."
 />

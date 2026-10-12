@@ -15,7 +15,7 @@
 
 <svelte:head>
 	<link rel="icon" href={site.icon} />
-	<!-- TODO: remove at launch — keeps the temporary preview site out of search results -->
+	<!-- TODO: remove at launch. Keeps the temporary preview site out of search results -->
 	<meta name="robots" content="noindex, nofollow" />
 </svelte:head>
 

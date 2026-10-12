@@ -17,7 +17,7 @@ export const coreFaqs: Faq[] = [
 	{
 		question: 'Will the collection calls stop?',
 		answer:
-			'Once a debt collector knows an attorney represents you, they’re generally required to contact the attorney instead of you. Every situation is different — we’ll go over yours on your free call.'
+			'Once a debt collector knows an attorney represents you, they’re generally required to contact the attorney instead of you. Every situation is different, and we’ll go over yours on your free call.'
 	},
 	{
 		question: 'How long does it take?',
@@ -27,7 +27,7 @@ export const coreFaqs: Faq[] = [
 	{
 		question: 'What happens on the call?',
 		answer:
-			'It’s a quick, no-pressure conversation. We’ll ask who’s contacting you and what’s been going on, explain your options in plain English, and — if it’s a fit — connect you with a partner law firm.'
+			'It’s a quick, no-pressure conversation. We’ll ask who’s contacting you and what’s been going on, explain your options in plain English, and, if it’s a fit, connect you with a partner law firm.'
 	}
 ];
 
@@ -51,6 +51,6 @@ export const moreFaqs: Faq[] = [
 	{
 		question: 'What if I’m being sued over a debt?',
 		answer:
-			'Don’t ignore it — court deadlines matter. Call us right away so we can get you connected with a law firm as quickly as possible.'
+			'Don’t ignore it. Court deadlines matter. Call us right away so we can get you connected with a law firm as quickly as possible.'
 	}
 ];

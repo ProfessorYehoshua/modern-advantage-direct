@@ -67,7 +67,7 @@
 		{
 			icon: Scale,
 			title: 'Real Attorneys',
-			description: 'You’re matched with a licensed consumer rights law firm — not a form letter.'
+			description: 'You’re matched with a licensed consumer rights law firm, not a form letter.'
 		},
 		{
 			icon: Handshake,
@@ -86,7 +86,7 @@
 		}
 	];
 
-	// PLACEHOLDER testimonials — replace only with real, verified client reviews (with permission).
+	// PLACEHOLDER testimonials: replace only with real, verified client reviews (with permission).
 	const testimonials = [
 		{ name: 'Client Name', location: 'City, ST' },
 		{ name: 'Client Name', location: 'City, ST' },
@@ -95,7 +95,7 @@
 </script>
 
 <svelte:head>
-	<title>{site.name} — Debt Collectors Have to Prove It.</title>
+	<title>{site.name} | Debt Collectors Have to Prove It.</title>
 	<meta
 		name="description"
 		content="Being contacted by debt collectors? Modern Advantage Direct connects you with independent consumer rights attorneys. Free, no-obligation consultation."
@@ -196,7 +196,7 @@
 			<h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-slate-900">
 				Does Any of This <span class="text-brand-gradient">Sound Familiar?</span>
 			</h2>
-			<p class="mt-4 text-lg text-slate-600">You’re not alone — and you don’t have to handle it alone.</p>
+			<p class="mt-4 text-lg text-slate-600">You’re not alone, and you don’t have to handle it alone.</p>
 		</div>
 
 		<div class="grid gap-4 mt-12 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
@@ -316,7 +316,7 @@
 				<Card class="bg-white border-2 border-dashed border-slate-200">
 					<CardContent class="pt-6">
 						<Badge variant="outline" class="mb-4 text-amber-700 bg-amber-50 border-amber-200">
-							Placeholder — add verified review
+							Placeholder: add verified review
 						</Badge>
 						<div class="flex gap-1 mb-4">
 							{#each Array(5) as _}
