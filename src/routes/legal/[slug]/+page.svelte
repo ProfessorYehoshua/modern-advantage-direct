@@ -1,12 +1,14 @@
 <script lang="ts">
 	import LegalPage from '$lib/components/site/LegalPage.svelte';
+
+	let { data } = $props();
 </script>
 
-<!-- TODO: replace with the final Terms of Use provided by counsel. -->
-<LegalPage title="Terms of Use">
+<!-- TODO: replace with the final text provided by counsel. -->
+<LegalPage title={data.title}>
 	<p
 		class="p-4 text-sm font-medium text-amber-800 bg-amber-50 rounded-lg border border-amber-200"
 	>
-		Placeholder — the final Terms of Use will be provided by counsel before launch.
+		Placeholder — the final {data.title} will be provided by counsel before launch.
 	</p>
 </LegalPage>

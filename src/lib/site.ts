@@ -23,9 +23,19 @@ export const nav = [
 	{ href: link('/faq'), label: 'FAQ' }
 ];
 
+// Legal pages. Each slug is served by src/routes/legal/[slug] (except Disclosures, which has its own page).
+// TODO: final text for each page to be provided by counsel.
+export const legalPages = [
+	{ slug: 'privacy-policy', label: 'Privacy Policy' },
+	{ slug: 'terms-and-conditions', label: 'Terms & Conditions' },
+	{ slug: 'privacy-notice', label: 'Privacy Notice' },
+	{ slug: 'california-privacy-notice', label: 'California Privacy Notice' },
+	{ slug: 'communication-consent', label: 'Communication Consent' },
+	{ slug: 'arbitration-agreement', label: 'Arbitration Agreement' }
+];
+
 export const legalNav = [
-	{ href: link('/privacy'), label: 'Privacy Policy' },
-	{ href: link('/terms'), label: 'Terms of Use' },
+	...legalPages.map((p) => ({ href: link(`/legal/${p.slug}`), label: p.label })),
 	{ href: link('/disclosures'), label: 'Disclosures' }
 ];
 
